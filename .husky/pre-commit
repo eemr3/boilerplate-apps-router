@@ -1,4 +1,3 @@
 #!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
-npm test
+PATH=$(npm bin):$PATH
+npx lint-staged
