@@ -13,10 +13,7 @@
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "prepare": "husky"
-  },
-  "lint-staged": {
-    "src/**/*.{js,ts,jsx,tsx}": "npm test --"
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "14.2.5",
